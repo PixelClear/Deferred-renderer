@@ -1,0 +1,252 @@
+﻿  main.cpp
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(456): warning C4251: 'Magick::DrawableBezier::_coordinates': class 'std::list<Magick::Coordinate,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::DrawableBezier'
+          with
+          [
+              _Ty=Magick::Coordinate
+          ]
+  c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(83): note: see declaration of 'std::list<Magick::Coordinate,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Magick::Coordinate
+          ]
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(498): warning C4251: 'Magick::DrawablePushClipPath::_id': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::DrawablePushClipPath'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xstring(4273): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(526): warning C4251: 'Magick::DrawableClipPath::_id': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::DrawableClipPath'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xstring(4273): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(959): warning C4251: 'Magick::DrawableFont::_font': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::DrawableFont'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xstring(4273): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(960): warning C4251: 'Magick::DrawableFont::_family': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::DrawableFont'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xstring(4273): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(1128): warning C4251: 'Magick::DrawablePath::_path': class 'std::list<Magick::VPath,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::DrawablePath'
+          with
+          [
+              _Ty=Magick::VPath
+          ]
+  c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(257): note: see declaration of 'std::list<Magick::VPath,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Magick::VPath
+          ]
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(1217): warning C4251: 'Magick::DrawablePolygon::_coordinates': class 'std::list<Magick::Coordinate,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::DrawablePolygon'
+          with
+          [
+              _Ty=Magick::Coordinate
+          ]
+  c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(83): note: see declaration of 'std::list<Magick::Coordinate,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Magick::Coordinate
+          ]
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(1237): warning C4251: 'Magick::DrawablePolyline::_coordinates': class 'std::list<Magick::Coordinate,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::DrawablePolyline'
+          with
+          [
+              _Ty=Magick::Coordinate
+          ]
+  c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(83): note: see declaration of 'std::list<Magick::Coordinate,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Magick::Coordinate
+          ]
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(1321): warning C4251: 'Magick::DrawablePushPattern::_id': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::DrawablePushPattern'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xstring(4273): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(1923): warning C4251: 'Magick::DrawableText::_text': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::DrawableText'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xstring(4273): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(1924): warning C4251: 'Magick::DrawableText::_encoding': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::DrawableText'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xstring(4273): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(2255): warning C4251: 'Magick::PathArcAbs::_coordinates': class 'std::list<Magick::PathArcArgs,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::PathArcAbs'
+          with
+          [
+              _Ty=Magick::PathArcArgs
+          ]
+  c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(2220): note: see declaration of 'std::list<Magick::PathArcArgs,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Magick::PathArcArgs
+          ]
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(2277): warning C4251: 'Magick::PathArcRel::_coordinates': class 'std::list<Magick::PathArcArgs,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::PathArcRel'
+          with
+          [
+              _Ty=Magick::PathArcArgs
+          ]
+  c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(2220): note: see declaration of 'std::list<Magick::PathArcArgs,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Magick::PathArcArgs
+          ]
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(2428): warning C4251: 'Magick::PathCurvetoAbs::_args': class 'std::list<Magick::PathCurvetoArgs,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::PathCurvetoAbs'
+          with
+          [
+              _Ty=Magick::PathCurvetoArgs
+          ]
+  c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(2394): note: see declaration of 'std::list<Magick::PathCurvetoArgs,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Magick::PathCurvetoArgs
+          ]
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(2451): warning C4251: 'Magick::PathCurvetoRel::_args': class 'std::list<Magick::PathCurvetoArgs,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::PathCurvetoRel'
+          with
+          [
+              _Ty=Magick::PathCurvetoArgs
+          ]
+  c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(2394): note: see declaration of 'std::list<Magick::PathCurvetoArgs,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Magick::PathCurvetoArgs
+          ]
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(2475): warning C4251: 'Magick::PathSmoothCurvetoAbs::_coordinates': class 'std::list<Magick::Coordinate,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::PathSmoothCurvetoAbs'
+          with
+          [
+              _Ty=Magick::Coordinate
+          ]
+  c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(83): note: see declaration of 'std::list<Magick::Coordinate,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Magick::Coordinate
+          ]
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(2500): warning C4251: 'Magick::PathSmoothCurvetoRel::_coordinates': class 'std::list<Magick::Coordinate,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::PathSmoothCurvetoRel'
+          with
+          [
+              _Ty=Magick::Coordinate
+          ]
+  c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(83): note: see declaration of 'std::list<Magick::Coordinate,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Magick::Coordinate
+          ]
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(2609): warning C4251: 'Magick::PathQuadraticCurvetoAbs::_args': class 'std::list<Magick::PathQuadraticCurvetoArgs,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::PathQuadraticCurvetoAbs'
+          with
+          [
+              _Ty=Magick::PathQuadraticCurvetoArgs
+          ]
+  c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(2575): note: see declaration of 'std::list<Magick::PathQuadraticCurvetoArgs,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Magick::PathQuadraticCurvetoArgs
+          ]
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(2633): warning C4251: 'Magick::PathQuadraticCurvetoRel::_args': class 'std::list<Magick::PathQuadraticCurvetoArgs,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::PathQuadraticCurvetoRel'
+          with
+          [
+              _Ty=Magick::PathQuadraticCurvetoArgs
+          ]
+  c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(2575): note: see declaration of 'std::list<Magick::PathQuadraticCurvetoArgs,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Magick::PathQuadraticCurvetoArgs
+          ]
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(2657): warning C4251: 'Magick::PathSmoothQuadraticCurvetoAbs::_coordinates': class 'std::list<Magick::Coordinate,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::PathSmoothQuadraticCurvetoAbs'
+          with
+          [
+              _Ty=Magick::Coordinate
+          ]
+  c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(83): note: see declaration of 'std::list<Magick::Coordinate,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Magick::Coordinate
+          ]
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(2681): warning C4251: 'Magick::PathSmoothQuadraticCurvetoRel::_coordinates': class 'std::list<Magick::Coordinate,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::PathSmoothQuadraticCurvetoRel'
+          with
+          [
+              _Ty=Magick::Coordinate
+          ]
+  c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(83): note: see declaration of 'std::list<Magick::Coordinate,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Magick::Coordinate
+          ]
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(2709): warning C4251: 'Magick::PathLinetoAbs::_coordinates': class 'std::list<Magick::Coordinate,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::PathLinetoAbs'
+          with
+          [
+              _Ty=Magick::Coordinate
+          ]
+  c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(83): note: see declaration of 'std::list<Magick::Coordinate,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Magick::Coordinate
+          ]
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(2733): warning C4251: 'Magick::PathLinetoRel::_coordinates': class 'std::list<Magick::Coordinate,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::PathLinetoRel'
+          with
+          [
+              _Ty=Magick::Coordinate
+          ]
+  c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(83): note: see declaration of 'std::list<Magick::Coordinate,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Magick::Coordinate
+          ]
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(2875): warning C4251: 'Magick::PathMovetoAbs::_coordinates': class 'std::list<Magick::Coordinate,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::PathMovetoAbs'
+          with
+          [
+              _Ty=Magick::Coordinate
+          ]
+  c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(83): note: see declaration of 'std::list<Magick::Coordinate,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Magick::Coordinate
+          ]
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(2899): warning C4251: 'Magick::PathMovetoRel::_coordinates': class 'std::list<Magick::Coordinate,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::PathMovetoRel'
+          with
+          [
+              _Ty=Magick::Coordinate
+          ]
+  c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(83): note: see declaration of 'std::list<Magick::Coordinate,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Magick::Coordinate
+          ]
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\exception.h(22): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'Magick::Exception'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\exception.h(21): note: see declaration of 'Magick::Exception'
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\exception.h(31): warning C4251: 'Magick::Exception::_what': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::Exception'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xstring(4273): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\coderinfo.h(65): warning C4251: 'Magick::CoderInfo::_name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::CoderInfo'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xstring(4273): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\coderinfo.h(66): warning C4251: 'Magick::CoderInfo::_description': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::CoderInfo'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xstring(4273): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\montage.h(90): warning C4251: 'Magick::Montage::_fileName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::Montage'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xstring(4273): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\montage.h(92): warning C4251: 'Magick::Montage::_font': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::Montage'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xstring(4273): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\montage.h(95): warning C4251: 'Magick::Montage::_label': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::Montage'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xstring(4273): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\montage.h(99): warning C4251: 'Magick::Montage::_texture': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::Montage'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xstring(4273): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\montage.h(101): warning C4251: 'Magick::Montage::_title': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::Montage'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xstring(4273): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\stl.h(134): warning C4251: 'Magick::annotateImage::_text': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::annotateImage'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xstring(4273): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\stl.h(213): warning C4251: 'Magick::cdlImage::_cdl': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::cdlImage'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xstring(4273): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\stl.h(273): warning C4251: 'Magick::commentImage::_comment': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::commentImage'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xstring(4273): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\stl.h(385): warning C4251: 'Magick::drawImage::_drawableList': class 'std::list<Magick::Drawable,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::drawImage'
+          with
+          [
+              _Ty=Magick::Drawable
+          ]
+  c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\drawable.h(177): note: see declaration of 'std::list<Magick::Drawable,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Magick::Drawable
+          ]
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\stl.h(651): warning C4251: 'Magick::labelImage::_label': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::labelImage'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xstring(4273): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\stl.h(1299): warning C4251: 'Magick::backgroundTextureImage::_backgroundTexture': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::backgroundTextureImage'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xstring(4273): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\stl.h(1474): warning C4251: 'Magick::fileNameImage::_fileName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::fileNameImage'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xstring(4273): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\stl.h(1498): warning C4251: 'Magick::fontImage::_font': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::fontImage'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xstring(4273): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\stl.h(1558): warning C4251: 'Magick::magickImage::_magick': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::magickImage'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xstring(4273): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\stl.h(1817): warning C4251: 'Magick::tileNameImage::_tileName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::tileNameImage'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xstring(4273): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\stl.h(1854): warning C4251: 'Magick::viewImage::_view': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::viewImage'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xstring(4273): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\parku\source\repos\thirdparty\include\imagemagick-6\magick++\stl.h(1867): warning C4251: 'Magick::x11DisplayImage::_display': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::x11DisplayImage'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xstring(4273): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\parku\source\repos\pbropengl\pbropengl\pbrmesh.h(67): warning C4240: nonstandard extension used: access to 'Mesh::MeshEntry' now defined to be 'private', previously it was defined to be 'public'
+  c:\users\parku\source\repos\pbropengl\pbropengl\pbrmesh.h(46): note: see declaration of 'Mesh::MeshEntry'
+c:\users\parku\source\repos\pbropengl\pbropengl\main.cpp(164): warning C4101: 'uboAlignment_': unreferenced local variable
+c:\users\parku\source\repos\pbropengl\pbropengl\main.cpp(485): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\parku\source\repos\pbropengl\pbropengl\main.cpp(488): warning C4305: '+=': truncation from 'double' to 'float'
+  PBROpenGL.vcxproj -> C:\Users\parku\source\repos\PBROpenGL\Debug\PBROpenGL.exe

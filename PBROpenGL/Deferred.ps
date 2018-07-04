@@ -1,0 +1,19 @@
+#version 430
+in vec2 v_TexCoord;
+in vec3 v_WorldPos;
+in vec3 v_WorldNormal;
+
+layout (location = 0) out vec3 WorldPosOut;
+layout (location = 1) out vec3 DiffuseOut;  
+layout (location = 2) out vec3 NormalOut; 
+layout (location = 3) out vec3 TexCoordOut; 
+
+uniform sampler2D gSampler; 
+
+void main() 
+{ 
+    WorldPosOut = v_WorldPos; 
+	DiffuseOut = texture(gSampler, v_TexCoord).xyz; 
+    NormalOut = normalize(v_WorldNormal); 
+    TexCoordOut = vec3(v_TexCoord, 0.0); 
+}

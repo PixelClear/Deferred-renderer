@@ -1,0 +1,114 @@
+#version 430
+
+uniform sampler2D u_PositionMap;
+uniform sampler2D u_ColorMap;
+uniform sampler2D u_NormalMap;
+uniform sampler2D u_TextureCoordMap;
+
+const float DirectionalLight = 0.0f;
+const float PointLight = 1.0f;
+
+out vec4 out_FragColor;
+
+struct LightProperties
+{
+	float lightType;
+	vec4 lightColor;
+	vec3 lightPos;
+	vec3 lightDir;
+	float lightRadius;
+	float diffuseIntensity;
+	vec3 v_WorldPos;
+	vec3 v_WorldNormal;
+	
+};
+
+struct LightBuffer
+{
+	vec4 lightPos_;
+	vec4 lightParams_; //(x - radius, y - spot outer, z - spot inner , w - light type)
+	vec4 lightIntensityParams_; //( x - - diffuse intensity, yzw - not used)
+	vec4 lightDir_;
+	vec4 lightColor_;
+};
+
+layout (std140 , binding = 0) uniform Light
+{
+	LightBuffer u_Lights[20];
+};
+
+vec2 getTexCoord()
+{
+   return gl_FragCoord.xy / vec2(1350,700);
+}
+
+float getAttenuation(float lightRadius, float distanceToLight) 
+{
+	float I = distanceToLight / lightRadius;
+	return max(1.0 - I * I, 0.0);
+}
+
+float getDiffuseFactor(vec3 toLight, vec3 normal)
+{
+	float d = dot(toLight, normal);
+
+	return clamp(d, 0.0, 1.0);
+}
+
+float calculatePointLight(LightProperties lp)
+{
+ 	vec3 toLight = lp.lightPos- lp.v_WorldPos.xyz;
+
+	float distanceToLight = length(toLight);
+	float attenuation = getAttenuation(lp.lightRadius, distanceToLight);
+
+	return  attenuation * lp.diffuseIntensity * getDiffuseFactor(normalize(toLight), normalize(lp.v_WorldNormal));
+}
+
+float calculateDirectionalLight(LightProperties lp)
+{
+  return lp.diffuseIntensity * getDiffuseFactor(-normalize(lp.lightDir), normalize(lp.v_WorldNormal));
+}
+
+vec4 calculateFinalColor(LightBuffer buf)
+{
+  LightProperties lp;
+  lp.lightType = buf.lightParams_.w;
+  lp.lightColor = buf.lightColor_;
+  lp.lightPos = buf.lightPos_.xyz;
+  lp.lightDir   = buf.lightDir_.xyz;
+  lp.lightRadius = buf.lightParams_.x;
+  lp.diffuseIntensity = buf.lightIntensityParams_.x;
+  lp.v_WorldPos = texture(u_PositionMap, getTexCoord()).xyz;
+  lp.v_WorldNormal = texture(u_NormalMap, getTexCoord()).xyz;
+  
+  vec4 Kp = lp.lightColor;
+  
+  Kp *= calculatePointLight(lp);
+  
+  return Kp;
+ }
+
+void main()
+{
+   vec2 uv = texture(u_TextureCoordMap, getTexCoord()).xy;
+   vec4 Kp;
+   for(int i = 0 ; i < 20; i++)
+   {
+      Kp += calculateFinalColor(u_Lights[i]);
+   }
+   
+   
+   LightProperties lp;
+   lp.lightColor = vec4(1.0f, 1.0f, 1.0f, 1.0f);
+   lp.lightDir   = vec3(-50.0f, -600.0f, -950.0f);
+   lp.v_WorldNormal = texture(u_NormalMap, getTexCoord()).xyz;
+   lp.diffuseIntensity = 0.3f;
+   
+   vec4 Kd = lp.lightColor * calculateDirectionalLight(lp); 
+   
+   float gamma = 2.2;
+   Kp.rgb = pow(Kp.rgb, vec3(1.0/gamma));
+	
+   out_FragColor = texture(u_ColorMap, getTexCoord()) * (Kp + Kd);
+}
